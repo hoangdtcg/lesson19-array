@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let nguoiYeuCu1 = "Nguyễn Cao Kỳ Duyên";
+        // let nguoiYeuCu2 = "Đỗ Mỹ Linh";
+        // let nguoiYeuCu3 = "Trần Khánh Vân";
+
+        // alert(nguoiYeuCu1 + ',' + nguoiYeuCu2);
+
+        let nguoiYeuCus = ["Nguyễn Cao Kỳ Duyên", "Đỗ Mỹ Linh", "Trần Khánh Vân"]
+
+        // alert(nguoiYeuCus[1]);
+        // alert(nguoiYeuCus.length);
+        // alert(nguoiYeuCus[nguoiYeuCus.length - 1]);
+
+        let feelings = ["happy", "exciting", "good", "unforgetable", "nothingspecial"];
+        let fruits = ['apple', 'banana', 'watermelon', 'orange', 'avocado'];
+        let money = new Array('apple', 'Banana', 'cam', 'chrome');
+        let cars = ["Toyota", "BWM", "Subaru", "Mercedes", "Ford"]; //example
+        let numbers = [1, 2, 13, 9, 10, 5, 4];
+        let myFamily = ["Hoàng Ninh", "Lê Hoàng Hảo", "Lê Văn Minh", "Lê Thị Tẹt", "Lê Thị Hĩm"];
+        // numbers[6] = 10;
+        // console.log(numbers[4]);
+        // console.log(numbers.length);
+
+        // for (let i = 0; i < myFamily.length; i++) { // i = vị trí phần tử trong mảng
+        //     document.write("Thành viên thứ " + (i + 1) + " tên là " + myFamily[i] + "<br>");
+        // }
+        numbers[numbers.length] = 21;
+        numbers[numbers.length] = 29;
+        numbers.push(100) // Thêm phần tử vào cuối mảng
+        numbers.pop(); //Xóa phần tử cuối mảng
+
+
+        // for (let i = numbers.length; i >= 0; i--) {
+        //     numbers[i] = numbers[i - 1];
+        // }
+        // numbers[0] = 100;
+        numbers.unshift(1000) // Thêm phân tử vào đầu mảng
+        numbers.shift() // Xóa phân tử ở đầu mảng
+
+        // let index = 2;
+        // for (let i = numbers.length; i >= index; i--) {
+        //     numbers[i] = numbers[i - 1];
+        // }
+        // numbers[index] = 50;
+
+        //Thêm, xóa phần tử ở vị trí bất kỳ trong mảng
+        // numbers.splice(2, 0, 500); // Thêm được, xóa được
+        numbers.splice(2, 3, 99); //xóa phần tử
+
+
+
+        // let max = numbers[0];
+        // for (let i = 1; i < numbers.length; i++) {
+        //     if (max < numbers[i]) {
+        //         max = numbers[i];
+        //     }
+        // }
+        document.write(numbers)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+- Bản chất những lập trình viên là những người lười.
+- Mảng: 1 biến đặc biệt có thể lưu trữ được nhiều giá trị cùng kiểu dữ liệu.
+    - Phần tử : - Giá trị 
+                - Vị trí: bắt đầu đếm từ 0
+    - Có thể lấy hoặc sửa được giá trị (value) của mảng thông qua vị trí ( index)
+- Khai báo mảng:
+    1 - let students = [];
+        - let arr = []
+    2 - let students = new Array();
+
+Có 23 hàm để thao tác với mảng.
+
+Mảng 1 chiều:
+
+Mảng đa chiều: Mảng trong mảng
+
+- push: thêm vào cuối Mảng
+- pop: xóa cuối Mảng
+- splice: Thêm, xóa ở vị trí bất kỳ
+- unshift: Thêm đầu Mảng
+- shift: Xóa đầu Mảng
+- split: Tách chuỗi thành mảng theo điều kiện
+
+1 bit - 10101011
+1 byte = 8 bit 
+1 kb = 1024 byte; => 2^10
+1 mb = 1024 kb;
+1 gb = 1024 mb;
+
+
+sản xuất: 1gb = 1000Mb;
